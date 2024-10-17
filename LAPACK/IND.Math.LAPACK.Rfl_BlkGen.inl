@@ -33,7 +33,7 @@ requires( ! isComplex< Decay<DerefTypeOf<T_Blk_V>> >
   && areTheSame<
   Decay<DerefTypeOf<T_Blk_V>>,
   Decay<DerefTypeOf<T_Arr_tau>>,
- Decay<DerefTypeOf<T_Blk_T>> > )
+  Decay<DerefTypeOf<T_Blk_T>> > )
 constexpr void Rfl_BlkGen(
   Direct direct, Store storev,
   Size n, Size k, T_Blk_V V_, Size V_ld,
