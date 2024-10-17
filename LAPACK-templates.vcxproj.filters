@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BLAS">
+      <UniqueIdentifier>{5c786012-fbcf-4f12-92e2-f5a759e13fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LAPACK">
+      <UniqueIdentifier>{97bba71d-3c6f-47ea-b760-e0216fd213e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{84f14377-a87c-480e-b9b1-622b581279cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4c4021ee-1a4e-4690-8403-73ef9187b660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BLAS\IND.Math.BLAS.h">
+      <Filter>BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="LAPACK\IND.Math.LAPACK.h">
+      <Filter>LAPACK</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BLAS\IND.Math.BLAS.Mat_AddSub.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_ConjVecMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_Copy.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_Fctr_LU.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_MatMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_Rank1Upd.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_RowSwp.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_Scale.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_Solv_LU.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Mat_VecMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Sym_Rank2kUpd.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Sym_Rank2Upd.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Sym_VecMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Tri_MatMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Tri_Solv_Mat.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Tri_Solv_Vec.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Tri_VecMul.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="BLAS\IND.Math.BLAS.Vec_X.inl">
+      <Filter>BLAS</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Aux_CombSsq2.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Aux_Eig2.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Aux_EigVec2.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Aux_PlnRot2.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Idx_LastCol.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Idx_LastRow.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Fctr_LQ.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Fctr_QL.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Fctr_QR.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Fctr_RQ.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Fill.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Rdto_Bid.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_Rescl.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Mat_RotSeq.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_Bid.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_LQ.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_QL.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_QR.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_RQ.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Ort_From_Syt.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Rfl_BlkGen.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Rfl_BlkMul.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Rfl_MatMul.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Rfl_VecGen.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Sym_Norm.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Sym_Rdto_Syt.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Syt_EigQR.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Syt_EigVecQR.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Syt_Norm.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Vec_Rescl.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+    <None Include="LAPACK\IND.Math.LAPACK.Vec_SmSqr.inl">
+      <Filter>LAPACK</Filter>
+    </None>
+  </ItemGroup>
+</Project>
