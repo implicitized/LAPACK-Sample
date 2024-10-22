@@ -187,7 +187,7 @@ namespace Math {
   inline constexpr T_Value zero = T_Value( 0 );
 
   // This is also used (in the parent codebase)
-  // where the base field may consist of low-dimension
+  // where the value type may consist of low-dimension
   // matrices.
   template< typename T_Value >
   inline constexpr T_Value unit = T_Value( 1 );
