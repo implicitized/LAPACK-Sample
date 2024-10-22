@@ -284,7 +284,7 @@ void Example_Bidiagonal()
   {
     const auto ad = Lyt::VecRef( A_d, i, A_ds );
     const auto bd = Lyt::VecRef( B_d, i, B_ds );
-    if( 0 != IntSignOrZero( ad - bd, diagTol ) )
+    if( ! IsWithinBound( ad - bd, diagTol ) )
     {
       cout << "ERROR: Ort_From_Bid - diagonal element mismatch! " << ad << " != " << bd << endl;
       break;
@@ -295,7 +295,7 @@ void Example_Bidiagonal()
   {
     const auto ae = Lyt::VecRef( A_e, i, A_ds );
     const auto be = Lyt::VecRef( B_e, i, B_ds );
-    if( 0 != IntSignOrZero( ae - be, diagTol ) )
+    if( ! IsWithinBound( ae - be, diagTol ) )
     {
       cout << "ERROR: Ort_From_Bid - off-diagonal element mismatch! " << ae << " != " << be << endl;
       break;
