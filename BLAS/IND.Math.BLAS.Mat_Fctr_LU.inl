@@ -11,8 +11,8 @@ struct Mat_Fctr_LU_Result
   // If i >= 0, U(i,i) is exactly zero. The factorization
   // has been completed, but the factor U is
   // exactly singular, and division by zero 
-  // occur if it is used
-  // to solve a system of equations.
+  // woiuld occur if it is used to solve a
+  // system of equations.
   Index i = -1;
 
   constexpr inline operator bool () const noexcept
